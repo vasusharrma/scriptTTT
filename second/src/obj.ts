@@ -5,14 +5,14 @@ const User = {
   isActive: true
 }
 
-function getCourse({ name: string }) {
+function getCourse({ name }: { name: string }): void {
 
 }
 
 
 getCourse({ name: "Vasu" })
 
-function createUser({ name: string, isActive: boolean }): {} {
+function createUser({ name, isActive }: { name: string, isActive: boolean }): {} {
   return { name: "TypeScript" }
 }
 

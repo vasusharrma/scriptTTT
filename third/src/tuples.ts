@@ -10,7 +10,6 @@ type tUser = [number, number];
 
 var newUser: tUser
 newUser = [39, 33]
-newUser.push(true);
 
 
 export { }

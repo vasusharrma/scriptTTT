@@ -31,6 +31,10 @@ runAfter1S(() => {
 })
 
 
+const afunc: (a: number) => void = (b: number) => {
+  console.log("Hello");
+  return "Hello"
+}
 
 
 
