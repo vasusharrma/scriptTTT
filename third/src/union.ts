@@ -2,23 +2,23 @@ let balance: number | string = 395;
 
 balance = "285";
 
-type Cust = {
-  name: string;
+interface Cust {
+  name: string
   id: number
 }
 
 
-type Admin = {
-  username: string;
+interface Admin {
+  username: string
   id: number
 }
 
-let vasu: Cust | Admin = {
+let Vsh: Cust | Admin = {
   name: "Vasu",
   id: 380
 }
 
-vasu = {
+Vsh = {
   username: "Vs.",
   id: 380
 }

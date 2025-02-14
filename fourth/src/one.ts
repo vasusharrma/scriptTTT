@@ -36,5 +36,10 @@ const afunc: (a: number) => void = (b: number) => {
   return "Hello"
 }
 
+//interfacec
+
+
+
+
 
 
