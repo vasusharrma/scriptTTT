@@ -16,7 +16,12 @@ interface HOD {
   department: string
 }
 
-type All = Parent & Teacher & HOD
+
+interface DEAN extends HOD {
+  college: string
+}
+
+type All = Parent & Teacher & HOD;
 
 const DrGesuThakur: All = {
   name: "Gesu",
@@ -29,3 +34,12 @@ const DrGesuThakur: All = {
 
 
 console.log(DrGesuThakur)
+
+function clltwoFun(fn1: () => void, fn2: (ar: string, nm: number) => string): string {
+  fn1();
+  fn2("smelse", 22);
+  return "something";
+}
+
+
+
